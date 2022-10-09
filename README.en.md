@@ -30,6 +30,18 @@ All of the Hangul lovers and K-POP fans will take your feedback with our feedbac
 ## About khexdump
 khexdump is a fork of hexdump but it utilizes **best hex system** K-hex.  
 
+### How to build
+Use this command:  
+```bash
+gcc -o khexdump ./근원/기본.c
+```
+
+### How to use
+Execute as following:
+```bash
+khexdump [filename]
+```
+
 ## License
 This software is distributed under [너 ㅈ대로 하고 싶은대로 해라 배포 규정](LICENSE). It is basically [WTFPL]() but utilizes **best character system** instead.  
 
